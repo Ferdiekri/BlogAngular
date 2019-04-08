@@ -7,6 +7,12 @@ import { Todo } from '../todo';
   styleUrls: ['./todos.component.css']
 })
 export class TodosComponent implements OnInit {
+  todo: Todo = {
+    userId: 1,
+    id: 1,
+    title: "Eder",
+    completed: true
+  };
 
   constructor() { }
 

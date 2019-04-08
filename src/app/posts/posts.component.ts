@@ -7,6 +7,12 @@ import { Post } from '../post';
   styleUrls: ['./posts.component.css']
 })
 export class PostsComponent implements OnInit {
+  post: Post = {
+    userId: 1,
+    id: 1,
+    title: "Eder",
+    body: "Eder"
+  };
 
   constructor() { }
 

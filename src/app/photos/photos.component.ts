@@ -7,6 +7,13 @@ import { Photo } from '../photo';
   styleUrls: ['./photos.component.css']
 })
 export class PhotosComponent implements OnInit {
+  photo: Photo = {
+    albumId: 1,
+    id: 1,
+    title: "Eder",
+    url: "Eder",
+    thumbnailUrl: "Eder"
+  };
 
   constructor() { }
 

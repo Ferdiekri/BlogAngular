@@ -7,6 +7,11 @@ import { Album } from '../album';
   styleUrls: ['./albums.component.css']
 })
 export class AlbumsComponent implements OnInit {
+    album: Album = {
+      userId: 1,
+    id: 2,
+    title: "Eder"
+    };
 
   constructor() { }
 
