@@ -8,6 +8,8 @@ import { PhotosComponent } from './photos/photos.component';
 import { TodosComponent } from './todos/todos.component';
 import { PostsComponent } from './posts/posts.component';
 import { CommentsComponent } from './comments/comments.component';
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { CommentsComponent } from './comments/comments.component';
     CommentsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+  FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
