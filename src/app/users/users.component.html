@@ -4,4 +4,4 @@
 <div><span>username: </span>{{user.username}}</div>
 <div><span>email: </span>{{user.email}}</div>
 <div><span>address: </span>{{user.address.street}}, {{user.address.suite}} -- {{user.address.zipcode}} - {{user.address.city}}</div>
-<div><span>geo: </span>{{user.lat}}, {{user.lng}}</div>
+<div><span>geo: </span>{{user.address.geo.lat}}, {{user.address.geo.lng}}</div>
