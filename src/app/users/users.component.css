@@ -2,3 +2,10 @@ body{
     padding-left: 10px;
     background-color: teal;
 }
+
+.usuario{
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 5px;
+    background-color: rgba(0, 128, 128,0.25);
+}
